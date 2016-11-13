@@ -2,7 +2,7 @@ Package.describe({
   name: 'nicocrm:react-komposer-tracker',
   version: '1.0.0',
   // Brief, one-line summary of the package.
-  summary: 'Enable use of react-komposer with Tracker',
+  summary: 'Enable use of react-komposer with Meteor Tracker',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/nicocrm/react-komposer-tracker',
   // By default, Meteor will default to using README.md for documentation.

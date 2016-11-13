@@ -1,0 +1,23 @@
+{
+  "name": "react-komposer-tracker",
+  "version": "1.0.0",
+  "description": "Enable use of react-komposer with Tracker.  This package.json file exists only for testing.",
+  "main": "react-komposer-tracker.js",
+  "scripts": {
+    "test": "meteor test-packages ./ --driver-package practicalmeteor:mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicocrm/react-komposer-tracker.git"
+  },
+  "keywords": [
+    "react-komposer",
+    "meteor"
+  ],
+  "author": "nicocrm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicocrm/react-komposer-tracker/issues"
+  },
+  "homepage": "https://github.com/nicocrm/react-komposer-tracker#readme"
+}

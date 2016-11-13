@@ -4,23 +4,28 @@ Package.describe({
   // Brief, one-line summary of the package.
   summary: 'Enable use of react-komposer with Tracker',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/nicocrm/react-komposer-tracker',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
 });
 
-Npm.depends({
-  'react-komposer': '2.0.0'
-})
 
 Package.onUse(function(api) {
+  Npm.depends({
+    'react-komposer': '2.0.0'
+  })
   api.versionsFrom('1.4.2.1');
   api.use('ecmascript');
   api.mainModule('react-komposer-tracker.js');
 });
 
 Package.onTest(function(api) {
+  Npm.depends({
+    'react': '15.3.2',
+    'react-komposer': '2.0.0',
+    'react-addons-test-utils': '15.3.2'
+  })
   api.use('ecmascript');
   api.use('session');
   api.use('practicalmeteor:mocha');

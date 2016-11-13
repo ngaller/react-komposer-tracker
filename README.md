@@ -4,6 +4,9 @@ Convenience package to provide a composeWithTracker function for react-komposer 
 The code for the composeWithTracker method is pasted from the suggested implementation
 provided in the react-komposer repository.
 
+See the [react-komposer repository](https://github.com/arunoda/react-komposer) for
+more usage information.
+
 # Usage
 
 ## composeWithTracker

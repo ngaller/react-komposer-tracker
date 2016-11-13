@@ -1,6 +1,6 @@
 Package.describe({
   name: 'nicocrm:react-komposer-tracker',
-  version: '0.0.1',
+  version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'Enable use of react-komposer with Tracker',
   // URL to the Git repository containing the source code for this package.
